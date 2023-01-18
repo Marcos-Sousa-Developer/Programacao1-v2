@@ -30,7 +30,7 @@ Dados dois pontos 2D, devolve a sua distância euclidiana.
 
 #### **Run it on terminal or open the code (main.py) and test it** 
 ```bash
-python3 -c 'from main import *; print(distancia( (X1,Y1),(XN,YN) ))'
+python3 -c 'from main import *; print(distancia( (X1,Y1),(XN,YN)))'
 ```
 
 ## Função sugerirCentroide 
@@ -39,7 +39,7 @@ Se nos derem um ponto pt dos dados originais, queremos saber qual o centróide m
 
 #### **Run it on terminal or open the code (main.py) and test it** 
 ```bash
-python3 -c 'from main import *; print(sugerirCentroide([(X1,Y1)...(XN,YN)], (X1,Y1) ))'
+python3 -c 'from main import *; print(sugerirCentroide([(X1,Y1)...(XN,YN)], (X1,Y1)))'
 ``` 
 ## Função encontrarCentroMassa 
 Dado uma lista de pontos 2D devolve um par com as coordenadas do centro de massa destes pontos.
