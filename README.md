@@ -22,16 +22,15 @@ Dada uma lista de inteiros ns e uma semente aleatória, gera len(ns) aglomerados
 
 #### **Run it on terminal or open the code (main.py) and test it** 
 ```bash
-python3 -c 'from main import *; print(criarPontos(["YOUR NUMBERS"], "YOUR SEED VALUE")))'
+python3 -c 'from main import *; print(criarPontos([1,.,.,.,N], "YOUR SEED VALUE")))'
 ```
-
 
 ## Função distancia 
 Dados dois pontos 2D, devolve a sua distância euclidiana.
 
 #### **Run it on terminal or open the code (main.py) and test it** 
 ```bash
-python3 -c 'from main import *; print(distancia( (X1,Y1),(X2,Y2) ))'
+python3 -c 'from main import *; print(distancia( (X1,Y1),(XN,YN) ))'
 ```
 
 ## Função sugerirCentroide 
@@ -40,23 +39,22 @@ Se nos derem um ponto pt dos dados originais, queremos saber qual o centróide m
 
 #### **Run it on terminal or open the code (main.py) and test it** 
 ```bash
-python3 -c 'from main import *; print(sugerirCentroide([Lista de centros], (X1,Y1) ))'
+python3 -c 'from main import *; print(sugerirCentroide([(X1,Y1)...(XN,YN)], (X1,Y1) ))'
 ``` 
 ## Função encontrarCentroMassa 
 Dado uma lista de pontos 2D devolve um par com as coordenadas do centro de massa destes pontos.
 
 #### **Run it on terminal or open the code (main.py) and test it** 
 ```bash
-python3 -c 'from main import *; print(encontrarCentroMassa([Lista de centros])'
+python3 -c 'from main import *; print(encontrarCentroMassa([(X1,Y1)...(XN,YN)])'
 ``` 
 
 ## Função aglomerar 
 Recebe o número de aglomerados, a lista de pontos, a tolerância máxima que define a convergência do algoritmo e o número máximo de iterações permitidas para o cálculo dos centróides.
 
-
 #### **Run it on terminal or open the code (main.py) and test it** 
 ```bash
-python3 -c 'from main import *; print(aglomerar(k, [Lista de centros], tol=0.001, maxIter=500))'
+python3 -c 'from main import *; print(aglomerar("YOUR K VALUE", [(X1,Y1)...(XN,YN)], tol=0.001, maxIter=500))'
 ``` 
 
 ## Função custear 
@@ -64,5 +62,15 @@ Recebe uma lista de centróides e a lista com os pontos originais, e devolve a s
 
 #### **Run it on terminal or open the code (main.py) and test it** 
 ```bash
-python3 -c 'from main import *; print(aglomerar(k, [Lista de centros], tol=0.001, maxIter=500))'
+python3 -c 'from main import *; pts =  criarPontos([(X1,Y1)...(XN,YN)],"YOUR SEED VALUE"); print(aglomerar(2, pts))'
 ``` 
+
+## Função sugerirK 
+Recebe a lista dos pontos iniciais, e dois inteiros que definem o intervalo de procura do valor k
+
+#### **Run it on terminal or open the code (main.py) and test it** 
+```bash
+python3 -c 'from main import *; pts =  criarPontos([(X1,Y1)...(XN,YN)],"YOUR SEED VALUE"); print(sugerirK(pts))'
+``` 
+
+
