@@ -22,7 +22,7 @@ Dada uma lista de inteiros ns e uma semente aleatória, gera len(ns) aglomerados
 
 #### **Run it on terminal or open the code (main.py) and test it** 
 ```bash
-python3 -c 'from main import *; print(criarPontos([1,.,.,.,N], "YOUR SEED VALUE")))'
+python3 -c 'from main import *; print(criarDados([1,.,.,.,N], "YOUR SEED VALUE")))'
 ```
 
 ## Função distancia 
