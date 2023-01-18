@@ -62,7 +62,8 @@ Recebe uma lista de centróides e a lista com os pontos originais, e devolve a s
 
 #### **Run it on terminal or open the code (main.py) and test it** 
 ```bash
-python3 -c 'from main import *; pts =  criarPontos([(X1,Y1)...(XN,YN)],"YOUR SEED VALUE"); print(aglomerar(2, pts))'
+python3 -c 'from main import *; pts =  criarPontos([(X1,Y1)...(XN,YN)],"YOUR SEED VALUE"); centros = aglomerar("YOUR VALUE", pts);
+print(custear(2, pts))'
 ``` 
 
 ## Função sugerirK 
