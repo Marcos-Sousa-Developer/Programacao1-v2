@@ -2,8 +2,8 @@
     <img src="https://img2.gratispng.com/20181111/lvr/kisspng-analytics-computer-icons-data-analysis-data-scienc-expertise-fuzion-analytics-5be890d2ca5ab6.4264525715419680828289.jpg" alt="Logo" width="80" height="80">
 </p>
 
-# <h1 align="center">Análise de Dados</h3>
-<h4 align="center">Projeto para a cadeira de Programação 1 (Parte2) (2020/2021)</h5>
+# <h1 align="center">Análise de Dados</h1>
+<h4 align="center">Projeto para a cadeira de Programação 1 (Parte2) (2020/2021)</h4>
 
 <hr>
 
